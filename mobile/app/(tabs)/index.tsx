@@ -11,27 +11,26 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/dbdfotobase.jpg')}
+          source={require('@/assets/images/sillenthillffoto.jpg')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">bem vindo, aqui somos uma comunidade exclusiva para odiar o Pará Lanches!</ThemedText>
+        <ThemedText type="title">bem vindo, aqui somos uma comunidade dos antigos fãs de Sillent Hill com o objetivo de noticiar tudo sobre o novo jogo da franquia que está pra ser lançado!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Pará Lanches é a pior lanchonete que você pode imaginar, eles vendem pizza de quatro queijos, só que são só duas fatias de queijo</ThemedText>
+        <ThemedText type="subtitle">Silent Hill F é o próximo jogo da franquia</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
+           <ThemedText type="defaultSemiBold">entendam</ThemedText> odeiem o Pará Lanches
           Press{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: ''
             })}
           </ThemedText>{' '}
-          to open developer tools.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -65,8 +64,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 300,
-    width: 1500,
+    height: 250,
+    width: 370,
     bottom: 0,
     left: 0,
     position: 'absolute',
