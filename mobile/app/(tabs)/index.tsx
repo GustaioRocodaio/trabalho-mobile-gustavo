@@ -11,43 +11,42 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/dbdfotobase.jpg')}
+          source={require('@/assets/images/sillenthillf.jpg')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">bem vindo, aqui somos uma comunidade exclusiva para odiar o Pará Lanches!</ThemedText>
+        <ThemedText type="title">bem vindo, aqui somos uma comunidade dos antigos e novos fãs de Sillent Hill com o objetivo de noticiar neste aplicativo tudo sobre o novo jogo da franquia que está pra ser lançado!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Pará Lanches é a pior lanchonete que você pode imaginar, eles vendem pizza de quatro queijos, só que são só duas fatias de queijo</ThemedText>
+        <ThemedText type="subtitle">Silent Hill F é o próximo jogo da franquia e isto está levando os fãs a loucura</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+           <ThemedText type="defaultSemiBold"></ThemedText> 
+          {' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: ''
             })}
           </ThemedText>{' '}
-          to open developer tools.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">O próximo jogo irá se passar em 1960 e no Japão?</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+  Sim, pela primeira vez iremos sair da cidade de Silent Hill, além de irmos para o passado, já que o primeiro jogo se passa 23 anos depois. Neste novo jogo controlaremos Hinako Shimizu, uma estudante do ensino médio, que em um dia comum, sua cidade, Ebisugaoka, é consumida por uma névoa, assim começando um pesadelo que nem ela e nem ninguém poderia imaginar!
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Quando irá lançar?</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+          {' '}
+          <ThemedText type="defaultSemiBold">Não temos uma data ainda, mas não precisa ficar desanimado, pois pelo o que foi falado, ele possívelmente irá lançar em 2026, para Xbox Series X/S(talvez um ano depois de lançar, devido a playstation), Playstation 5 e PC</ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -65,8 +64,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 300,
-    width: 1500,
+    height: 250,
+    width: 370,
     bottom: 0,
     left: 0,
     position: 'absolute',
