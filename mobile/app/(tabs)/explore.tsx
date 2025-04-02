@@ -12,29 +12,34 @@ export default function TabTwoScreen() {
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
-          style={styles.headerImage}
-        />
+        <Image
+        source={require('@/assets/images/sillenthillf.jpg')}
+        style={styles.headerImage}
+      />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Aqui você encontra respostas para duvidas sobre o próximo Silent Hill</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
+      <ThemedText></ThemedText>
+      <Collapsible title="Quais os requistios para rodar no meu PC?">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+          {' '}
+          <ThemedText type="defaultSemiBold">
+          Sistema Operacional: Windows 11 x64.
+            
+          Processador: Intel Core i5-8400 / AMD Ryzen 5 2600. 
+             
+          Memória RAM: 16 GB</ThemedText> {' '}
+          
+         
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
         <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
+           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Android, iOS, and web support">
@@ -43,15 +48,17 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Images">
+      <Collapsible title="jumpscare">
         <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
+           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
+        <Image
+        source={require('@/assets/images/gengar.webp')}
+        style={styles.headerImage}
+      />
+        <ExternalLink href="">
+          <ThemedText type="link"></ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Custom fonts">
@@ -97,11 +104,13 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: '#808080',
-    bottom: -90,
-    left: -35,
+    height: 250,
+    width: 400,
+    bottom: 0,
+    left: 0,
     position: 'absolute',
   },
+
   titleContainer: {
     flexDirection: 'row',
     gap: 8,
