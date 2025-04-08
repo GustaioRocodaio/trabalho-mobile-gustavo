@@ -23,16 +23,9 @@ export default function TabTwoScreen() {
       <ThemedText></ThemedText>
       <Collapsible title="Quais os requistios para rodar no meu PC?">
         <ThemedText>
-          {' '}
-          <ThemedText type="defaultSemiBold">
-          Sistema Operacional: Windows 11 x64.
-            
-          Processador: Intel Core i5-8400 / AMD Ryzen 5 2600. 
-             
-          Memória RAM: 16 GB</ThemedText> {' '}
-          
-         
-          <ThemedText type="defaultSemiBold"></ThemedText>
+          This app has two screens:{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
+          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
         </ThemedText>
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>{' '}
@@ -48,12 +41,16 @@ export default function TabTwoScreen() {
            <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> 
         </ThemedText>
-        <Image
-        source={require('@/assets/images/gengar.webp')}
-        style={styles.headerImage}
-      />
-        <ExternalLink href="">
-          <ThemedText type="link"></ThemedText>
+      </Collapsible>
+      <Collapsible title="Images">
+        <ThemedText>
+          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
+          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
+          different screen densities
+        </ThemedText>
+        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
+        <ExternalLink href="https://reactnative.dev/docs/images">
+          <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
       </Collapsible>
       
