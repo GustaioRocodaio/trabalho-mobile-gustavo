@@ -18,23 +18,10 @@ export default function TabTwoScreen() {
       />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Aqui você encontra respostas para duvidas sobre o próximo Silent Hill</ThemedText>
+        <ThemedText type="title">Silent Hill F, próximo jogo da franquia de jogos de survival horror</ThemedText>
       </ThemedView>
-      <ThemedText></ThemedText>
-      <Collapsible title="Quais os requistios para rodar no meu PC?">
-        <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
-        </ThemedText>
-        <ThemedText>
-           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
-          
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link"></ThemedText>
-        </ExternalLink>
-      </Collapsible>
+      <ThemedText>Silent Hill F foi anunciado como o próximo jogo da aclamada franquia de survival horror, a Konami anunciou com um trailer mostrando novas ideias que estarão no jogo.</ThemedText>
+     
       
       <Collapsible title="jumpscare">
         <ThemedText>

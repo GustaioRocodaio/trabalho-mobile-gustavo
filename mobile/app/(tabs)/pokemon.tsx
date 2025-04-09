@@ -13,35 +13,19 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
-        source={require('@/assets/images/sillenthillf.jpg')}
+        source={require('@/assets/images/pokemonbw.jpg')}
         style={styles.headerImage}
       />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Aqui você encontra respostas para duvidas sobre o próximo Silent Hill</ThemedText>
+        <ThemedText type="title">Segundo Rumores, Pokémon Black & Withe Podem Ter um Remake</ThemedText>
       </ThemedView>
-      <ThemedText></ThemedText>
-      <Collapsible title="Quais os requistios para rodar no meu PC?">
+      <ThemedText>Pokémon Black & White são antigos jogos de Pokémon, que eram dividos em duas versôes, Black Version e White Version, cada um contando com Pokémons únicos, sendo representados em sua capa os pokémons lendários Reshiram e Zekrom.</ThemedText>
+       
         <ThemedText>
-          {' '}
-          <ThemedText type="defaultSemiBold">
-          Sistema Operacional: Windows 11 x64.
-            
-          Processador: Intel Core i5-8400 / AMD Ryzen 5 2600. 
-             
-          Memória RAM: 16 GB</ThemedText> {' '}
-          
-         
-          <ThemedText type="defaultSemiBold"></ThemedText>
-        </ThemedText>
-        <ThemedText>
-           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+           <ThemedText >Recentemente surgiu rumores sobre que esses tais jogos tão aclamados pelo público, possam ganhar remakes em um futuro próximo. Esses rumores vem devido ao fato da Nintendo, a empresa dona da marca Pokémon, adquiriu novas patentes que fizeram os insiders pensarem que talvez ela esteja pensando em um remake de jogos de Pokémon.</ThemedText>{' '}
           
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link"></ThemedText>
-        </ExternalLink>
-      </Collapsible>
       
       <Collapsible title="jumpscare">
         <ThemedText>
@@ -52,37 +36,10 @@ export default function TabTwoScreen() {
         source={require('@/assets/images/gengar.webp')}
         style={styles.headerImage}
       />
-        <ExternalLink href="">
-          <ThemedText type="link"></ThemedText>
-        </ExternalLink>
+       
       </Collapsible>
       
-      <Collapsible title="Light and dark mode components">
-        <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Animations">
-        <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
-        </ThemedText>
-        {Platform.select({
-          ios: (
-            <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
-            </ThemedText>
-          ),
-        })}
-      </Collapsible>
+      
     </ParallaxScrollView>
   );
 }
@@ -90,7 +47,7 @@ export default function TabTwoScreen() {
 const styles = StyleSheet.create({
   headerImage: {
     height: 250,
-    width: 400,
+    width: 370,
     bottom: 0,
     left: 0,
     position: 'absolute',
