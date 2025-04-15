@@ -16,7 +16,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">bem vindo, aqui somos uma comunidade dos antigos e novos fãs de Sillent Hill com o objetivo de noticiar neste aplicativo tudo sobre o novo jogo da franquia que está pra ser lançado!</ThemedText>
+        <ThemedText type="title">Neste ultimo sabádo foi anunciado com um teaser o anime de Steel Ball Run, a parte 7 de JoJo's Bizarre Adventure</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
