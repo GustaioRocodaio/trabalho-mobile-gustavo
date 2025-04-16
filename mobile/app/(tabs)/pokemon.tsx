@@ -27,6 +27,7 @@ export default function TabTwoScreen() {
           
         </ThemedText>
       
+
       <Collapsible title="jumpscare">
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText> {' '}
