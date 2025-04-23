@@ -11,16 +11,15 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/steelballrun.webp')}
+          source={require('@/assets/images/Steel-Ball-Run-Anime.webp')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Neste ultimo sabádo foi anunciado com um teaser o anime de Steel Ball Run, a parte 7 de JoJo's Bizarre Adventure</ThemedText>
-        <HelloWave />
+        <ThemedText type="title">Anime de Steel Ball Run</ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Panini começou a serelisar no Brasil Steel Ball Run</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText> 
           {' '}
@@ -34,13 +33,13 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Em quanto tempo para lançar tudo?</ThemedText>
+        <ThemedText type="subtitle"></ThemedText>
         <ThemedText>
- Foi anunciado que  serão um total de 16 volumes e que irá lançar um por mês, ou seja, totalizando 16 meses para lançar tudo
-        </ThemedText>
+Recentemente teve o evento JoJoDay, um evento totalmente focado em JoJo's Bizarre Adventure. Nele foi anunciado oficailmente o anime da parte 7 de JoJo's, Steel Ball Run, essa parte ocorre em 1890 durante uma corrida a cavalo que cruza os Estados Unidos Inteiro em busca de coletar um artefato incomum e misterioso. </ThemedText>
       </ThemedView>
+      
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Compre Steel Ball Run</ThemedText>
+        <ThemedText >Acompanhamos a história de Johnny Joestar, um ex jóquei que após um incidente que o tornou paraplégico, vê em cartaz a corrida, onde indo até ela se econtrou com Gryo Zeppeli, que decide se tornar amigo dele e competirem juntos na corrida.</ThemedText>
         <ThemedText>
           {' '}
          
